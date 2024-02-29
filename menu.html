@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>New Menu</h1>
+    <table>
+        <tr>
+            <td class="table_header">Meal</td>
+            <td class="table_header">Price</td>
+            <td class="table_header">Vegan</td>
+        </tr>
+        <tr>
+            <td>Club Sandwich</td>
+            <td>25 kr.</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Spaghetti Bolognese</td>
+            <td>30 kr.</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <td>Caesar Salad</td>
+            <td>20 kr.</td>
+            <td>No</td>
+        </tr>
+    </table>
+
+    <p style="font-weight: bold">Suggest a new item on the menu:</p>
+    <button class="button">Click Here!</button>
+
+    <script>
+        let button = document.querySelector("button");
+        button.addEventListener("click", () => {
+            window.location.href = "submission.html";
+        });
+    </script>
+</body>
+</html>

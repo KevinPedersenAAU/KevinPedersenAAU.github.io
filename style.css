@@ -5,5 +5,8 @@
 
 }
 .button {
-    color: lightblue;
+    color: orangered;
+}
+.table_header {
+    font-weight: bold;
 }

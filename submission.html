@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submission Page</title>
+</head>
+<body>
+    <h1>Submission Page</h1>
+    <p>Enter you suggestion here:</p>
+    <label>
+        <input>
+    </label>
+    <div id="response"></div>
+    <script>
+        let input = document.querySelector("input");
+        input.addEventListener("keypress", (event) => {
+            if (event.key === "Enter") {
+                document.getElementById("response").textContent = "Your suggestion has been submitted!";
+            }
+        });
+    </script>
+</body>
+</html>
